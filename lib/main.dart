@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:vehicle_service_app/screens/login&Reg/login.dart';
+
 
 // import 'package:vehicle_service_app/screens/user_reg.dart';
 
 import 'package:vehicle_service_app/utils/themes.dart';
+
+import 'screens/login.dart';
 void main(){
   runApp(const MyApp());
 }

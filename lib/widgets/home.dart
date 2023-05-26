@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:vehicle_service_app/screens/bottom_navbar.dart';
-import 'package:vehicle_service_app/screens/drawer.dart';
+import 'package:vehicle_service_app/widgets/bottom_navbar.dart';
+import 'package:vehicle_service_app/widgets/drawer.dart';
 
 
 class HomeScreen extends StatelessWidget {

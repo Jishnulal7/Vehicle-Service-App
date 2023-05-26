@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:vehicle_service_app/screens/home.dart';
+import 'package:vehicle_service_app/widgets/home.dart';
 import 'package:vehicle_service_app/screens/login&Reg/register.dart';
 
 class LoginScreen extends StatefulWidget {

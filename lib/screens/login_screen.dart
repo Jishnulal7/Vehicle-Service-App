@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:vehicle_service_app/screens/register.dart';
+import 'package:vehicle_service_app/screens/register_screen.dart';
 import 'package:vehicle_service_app/widgets/home.dart';
 
 

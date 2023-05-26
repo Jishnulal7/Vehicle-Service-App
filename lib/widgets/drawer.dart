@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 
 
 
-import '../screens/edit_profile.dart';
-import '../screens/login.dart';
+import '../screens/edit_profile_screen.dart';
+import '../screens/login_screen.dart';
 
 class DrawerScreen extends StatefulWidget {
   const DrawerScreen({super.key});

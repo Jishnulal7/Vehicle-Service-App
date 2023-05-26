@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'user_reg.dart';
+import 'user_reg_screen.dart';
 
 
 class RegisterPage extends StatefulWidget {

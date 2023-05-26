@@ -1,7 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:vehicle_service_app/screens/login&Reg/edit_profile.dart';
-import 'package:vehicle_service_app/screens/login&Reg/login.dart';
+
+
+
+import '../screens/edit_profile.dart';
+import '../screens/login.dart';
 
 class DrawerScreen extends StatefulWidget {
   const DrawerScreen({super.key});

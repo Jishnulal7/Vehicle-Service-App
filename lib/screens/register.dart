@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:vehicle_service_app/screens/login&Reg/user_reg.dart';
+
+import 'user_reg.dart';
+
 
 class RegisterPage extends StatefulWidget {
   const RegisterPage({super.key});

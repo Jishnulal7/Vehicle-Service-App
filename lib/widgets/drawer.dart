@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:vehicle_service_app/widgets/home.dart';
 
 
 
@@ -19,7 +20,11 @@ class _DrawerScreenState extends State<DrawerScreen> {
       return const EditProfile();
     }));
   }
-
+_onPress(){
+   Navigator.push(context, MaterialPageRoute(builder: (context) {
+      return const HomeScreen();
+    }));
+}
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -39,14 +44,17 @@ class _DrawerScreenState extends State<DrawerScreen> {
                 ),
               ),
             ),
-            const ListTile(
-              leading: Icon(
+             ListTile(
+              leading: const Icon(
                 CupertinoIcons.home,
                 color: Colors.white,
               ),
-              title: Text(
-                'Home',
-                style: TextStyle(color: Colors.white),
+              title: GestureDetector(
+                onTap: _onPress,
+                child: const Text(
+                  'Home',
+                  style: TextStyle(color: Colors.white),
+                ),
               ),
             ),
             ListTile(

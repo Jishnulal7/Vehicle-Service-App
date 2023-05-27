@@ -57,17 +57,17 @@ class ScreenOne extends StatelessWidget {
                 borderRadius: BorderRadius.circular(
                   70,
                 )),
-            child: const Column(
+            child:  Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Padding(
+                const Padding(
                   padding: EdgeInsets.symmetric(horizontal: 30, vertical: 25),
                   child: Text(
                     'Travel With Us....',
                     style: TextStyle(fontSize: 20),
                   ),
                 ),
-                Padding(
+                const Padding(
                   padding: EdgeInsets.symmetric(
                     horizontal: 60,
                   ),
@@ -79,16 +79,18 @@ class ScreenOne extends StatelessWidget {
                     ),
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 30,
                 ),
-                Padding(
+                const Padding(
                   padding: EdgeInsets.symmetric(horizontal: 90),
                   child: Text(
                     'Contact no :+9112345678',
                     style: TextStyle(fontSize: 12),
                   ),
-                ),
+                ),Row(
+                  children: [Image.asset()],
+                )
               ],
             ),
           ),

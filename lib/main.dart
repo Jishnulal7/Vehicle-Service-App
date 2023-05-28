@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:vehicle_service_app/screens/services.dart';
+
+import 'package:vehicle_service_app/screens/service_screen.dart';
 
 import 'package:vehicle_service_app/utils/themes.dart';
 

@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-
-
-import 'package:vehicle_service_app/screens/service_screen.dart';
+import 'package:vehicle_service_app/screens/feedback.dart';
 
 import 'package:vehicle_service_app/utils/themes.dart';
 
@@ -15,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: const ServicesScreen(),
+      home: const FeedBackScreen(),
       theme: MyTheme.lightTheme,
       debugShowCheckedModeBanner: false,
     );

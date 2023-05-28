@@ -53,7 +53,9 @@ class CabService extends StatelessWidget {
               ),
               child: const Text(
                 'Vehicle Types',
-                style: TextStyle(fontSize: 20),
+                style: TextStyle(
+                  fontSize: 20,
+                ),
               ),
             )
           ],

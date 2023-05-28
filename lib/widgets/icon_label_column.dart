@@ -1,12 +1,12 @@
 
 import 'package:flutter/material.dart';
 
-class IconLabelItem extends StatelessWidget {
+class IconLabelItemColumn extends StatelessWidget {
   final IconData icon;
   final String label;
   final double iconSize;
 
-  const IconLabelItem({
+  const IconLabelItemColumn({
     Key? key,
     required this.icon,
     required this.label,

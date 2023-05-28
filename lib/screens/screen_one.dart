@@ -3,7 +3,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:vehicle_service_app/widgets/bottom_navbar.dart';
 import 'package:vehicle_service_app/widgets/drawer.dart';
-import 'package:vehicle_service_app/widgets/icon_label.dart';
+import 'package:vehicle_service_app/widgets/icon_label_column.dart';
+
 
 class Screen extends StatelessWidget {
   const Screen({super.key});
@@ -151,35 +152,35 @@ class Screen extends StatelessWidget {
                       scrollDirection: Axis.horizontal,
                       child: Row(
                         children: [
-                          IconLabelItem(
+                          IconLabelItemColumn(
                             icon: Icons.car_rental,
                             label: 'CAB',
                           ),
                           SizedBox(
                             width: 10,
                           ),
-                          IconLabelItem(
+                          IconLabelItemColumn(
                             icon: Icons.car_rental_rounded,
                             label: 'RENT',
                           ),
                           SizedBox(
                             width: 10,
                           ),
-                          IconLabelItem(
+                          IconLabelItemColumn(
                             icon: Icons.car_rental,
                             label: 'WORKSHOP',
                           ),
                           SizedBox(
                             width: 10,
                           ),
-                          IconLabelItem(
+                          IconLabelItemColumn(
                             icon: Icons.backpack_outlined,
                             label: 'ACCESSORY',
                           ),
                           SizedBox(
                             width: 10,
                           ),
-                          IconLabelItem(
+                          IconLabelItemColumn(
                             icon: CupertinoIcons.upload_circle,
                             label: 'UPLOAD',
                           ),
